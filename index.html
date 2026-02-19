@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Index.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Sterling Hospital</title>
+    <link
+      rel="shortcut icon"
+      href="./Image/Main-logo.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR  -->
+    <nav class="navbar navbar-expand-md navbar-custom">
+      <div class="container-fluid nav-container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="./Image/Main-logo.png" alt="Logo" />
+          <h1>Sterling <br />Hospital</h1>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="fa-solid fa-bars"></i
+          ></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0 gap-4 me-5">
+            <li class="nav-item text-dark">
+              <a class="nav-link" href="#"><span>Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-dark"
+                href="../Treatments & Doctors/Treatment & Doctor.html"
+                ><span>Treatments & Doctors</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-dark"
+                href="../Book Appointment/Book appointment.html"
+                ><span>Book Appointment</span></a
+              >
+            </li>
+          </ul>
+          <button class="contact-btn" type="button">
+            <a href="#footer-contact">Contact</a>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- BANNER SECTION  -->
+
+    <section class="banner-section">
+      <div class="banner-overlay"></div>
+      <div class="banner-content">
+        <h1>Your Health, Our Priority</h1>
+        <div class="banner-features">
+          <div class="feature">
+            <div class="banner-icon"><i class="fas fa-heart"></i></div>
+            <p>• Compassionate Care</p>
+          </div>
+          <div class="feature">
+            <div class="banner-icon"><i class="fas fa-clock"></i></div>
+            <p>• 24/7 Emergency Services</p>
+          </div>
+          <div class="feature">
+            <div class="banner-icon"><i class="fas fa-user-md"></i></div>
+            <p>• Trusted Doctors</p>
+          </div>
+        </div>
+        <div class="banner-actions">
+          <button class="btn btn-Book"><span>Book Appointment</span></button>
+          <button class="btn btn-View"><span>View Treatments</span></button>
+        </div>
+      </div>
+      <div class="banner-image">
+        <img src="./Image/banner image.png" alt="Healthcare Professionals" />
+      </div>
+    </section>
+
+    <!-- HERO SECTION -->
+    <section class="about-section">
+      <div class="about-grid">
+        <div class="about-content">
+          <h2>
+            Welcome to<br />
+            <span>Sterling Multispecialty Hospital</span>
+          </h2>
+          <p>
+            We are a trusted name in healthcare, delivering world-class
+            treatment with a human touch. Our experienced medical team, advanced
+            technology, and ethical approach ensure every patient receives the
+            care they deserve.
+          </p>
+          <div class="vision-mission">
+            <div class="vision">
+              <div class="icon"><i class="fa-regular fa-lightbulb"></i></div>
+              <div>
+                <h3>Our Vision:</h3>
+                <p>
+                  To be the most compassionate and accessible center of healing
+                  in the region.
+                </p>
+              </div>
+            </div>
+            <div class="mission">
+              <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
+              <div>
+                <h3>Our Mission:</h3>
+                <ul>
+                  <li>To provide high-quality medical services to all</li>
+                  <li>To make healthcare affordable and inclusive</li>
+                  <li>To empower communities with preventive care</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="corner-top">
+            <img src="./Image/Rectangle 1.png" alt="" />
+          </div>
+          <div class="image-card">
+            <img src="./Image/about image.png" alt="Medical Professionals" />
+          </div>
+          <div class="corner-bottom">
+            <img src="./Image/Rectangle 2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Treatments We Offer  -->
+    <section class="treatment-section">
+      <div class="treatment-grid">
+        <div class="treatment-container">
+          <h2>Treatments We Offer</h2>
+
+          <div class="treatment-card-grid">
+            <div class="treatment-card">
+              <div class="treatment-icon">
+                <img
+                  src="./Image/Treatments We Offer/Vector.png"
+                  alt=""
+                  class="pediatrics"
+                />
+              </div>
+              <div><p>Pediatrics</p></div>
+            </div>
+
+            <div class="treatment-card">
+              <div class="treatment-icon">
+                <img
+                  src="./Image/Treatments We Offer/Vector-1.png"
+                  alt=""
+                  class="neurology"
+                />
+              </div>
+              <div><p>Neurology</p></div>
+            </div>
+
+            <div class="treatment-card">
+              <div class="treatment-icon">
+                <img
+                  src="./Image/Treatments We Offer/Vector-2.png"
+                  alt=""
+                  class="orthopaedics"
+                />
+              </div>
+              <div><p>Orthopaedics</p></div>
+            </div>
+
+            <div class="treatment-card">
+              <div class="treatment-icon">
+                <img
+                  src="./Image/Treatments We Offer/Vector-3.png"
+                  alt=""
+                  class="cardiology"
+                />
+              </div>
+              <div><p>Cardiology</p></div>
+            </div>
+          </div>
+
+          <div class="treatment-view">
+            <button>View all Treatments</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services We Offer -->
+    <section class="services-section">
+      <div class="services-grid">
+        <div class="services-container">
+          <h2>Services We Offer</h2>
+
+          <div class="services-card-grid">
+            <div class="services-card">
+              <div class="services-icon">
+                <img
+                  src="./Image/Services we offer/Vector.png"
+                  alt=""
+                  class="ambulance"
+                />
+              </div>
+              <div><p>24/7 Ambulance Service</p></div>
+            </div>
+
+            <div class="services-card">
+              <div class="services-icon">
+                <img
+                  src="./Image/Services we offer/Vector-1.png"
+                  alt=""
+                  class="citizen"
+                />
+              </div>
+              <div><p>Senior Citizen Discounts</p></div>
+            </div>
+
+            <div class="services-card">
+              <div class="services-icon">
+                <img
+                  src="./Image/Services we offer/Vector-2.png"
+                  alt=""
+                  class="insurance"
+                />
+              </div>
+              <div><p>Insurance Assistance</p></div>
+            </div>
+
+            <div class="services-card">
+              <div class="services-icon">
+                <img
+                  src="Image/Services we offer/Vector-3.png"
+                  alt=""
+                  class="in-house"
+                />
+              </div>
+              <div><p>In-House Pharmacy</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- development -->
+
+    <section class="development-section">
+      <div class="development-container">
+        <h2>Departments</h2>
+        <div class="development-title">
+          <div>
+            <p>ICU & Emergency Unit</p>
+          </div>
+
+          <div>
+            <p>Surgical Ward</p>
+          </div>
+
+          <div>
+            <p>Radiology & Imaging</p>
+          </div>
+
+          <div>
+            <p>Maternity & Child Care</p>
+          </div>
+
+          <div>
+            <p>Radiology and Imaging</p>
+          </div>
+
+          <div>
+            <p>Laboratories</p>
+          </div>
+
+          <div>
+            <p>Pharmacy</p>
+          </div>
+
+          <div>
+            <p>General OPD</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Specialists Doctors  -->
+
+    <section class="specialists-doctor">
+      <div class="specialists-container">
+        <h2>Our Specialists Doctors</h2>
+
+        <div class="specialists-card-container">
+          <div class="specialists-card-section">
+            <div class="specialists-card-path">
+              <div class="specialists-doctor-profile">
+                <img src="./Image/Doctor/04.jpg" alt="" />
+              </div>
+              <div class="specialists-status">
+                <span>&#8226; &nbsp; Available</span>
+              </div>
+              <div class="specialists-name">
+                <h3><span class="specalist-head-name">Dr. Sanaa</span></h3>
+                <h3><span class="specalist-more-info">More Info</span></h3>
+              </div>
+            </div>
+            <button class="arrow-button">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+
+          <div class="specialists-card-section">
+            <div class="specialists-card-path">
+              <div class="specialists-doctor-profile">
+                <img src="./Image/Doctor/03.jpg" alt="" />
+              </div>
+              <div class="specialists-status">
+                <span>&#8226; &nbsp; Available</span>
+              </div>
+              <div class="specialists-name">
+                <h3><span class="specalist-head-name">Dr. Shiyaz</span></h3>
+                <h3><span class="specalist-more-info">More Info</span></h3>
+              </div>
+            </div>
+            <button class="arrow-button">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+
+          <div class="specialists-card-section">
+            <div class="specialists-card-path">
+              <div class="specialists-doctor-profile">
+                <img src="./Image/Doctor/02.jpg" alt="" />
+              </div>
+              <div class="specialists-status">
+                <span>&#8226; &nbsp; Available</span>
+              </div>
+              <div class="specialists-name">
+                <h3><span class="specalist-head-name">Dr. Yusra</span></h3>
+                <h3><span class="specalist-more-info">More Info</span></h3>
+              </div>
+            </div>
+            <button class="arrow-button">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+
+          <div class="specialists-card-section">
+            <div class="specialists-card-path">
+              <div class="specialists-doctor-profile">
+                <img src="./Image/Doctor/01.jpg" alt="" />
+              </div>
+              <div class="specialists-status">
+                <span>&#8226; &nbsp; Available</span>
+              </div>
+              <div class="specialists-name">
+                <h3><span class="specalist-head-name">Dr. Idris</span></h3>
+                <h3><span class="specalist-more-info">More Info</span></h3>
+              </div>
+            </div>
+            <button class="arrow-button">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bed Avaliblity -->
+
+    <section class="Bed-Availability">
+      <div class="Bed-container">
+        <h2>Bed Availability</h2>
+
+        <div class="Bed-card-container">
+          <div class="Bed-card-section">
+            <div class="Bed-card-path">
+              <div class="Bed-doctor-profile">
+                <img src="./Image/Bed/ICU.png" alt="" />
+              </div>
+              <div class="Bed-status">
+                <span>&#8226; &nbsp; Available Bed</span>
+              </div>
+              <div class="Bed-name">
+                <h3><span class="specalist-head-name">ICU</span></h3>
+                <h3><span class="specalist-more-info">Check</span></h3>
+              </div>
+            </div>
+            <button class="arrow-button">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+
+          <div class="Bed-card-section">
+            <div class="Bed-card-path">
+              <div class="Bed-doctor-profile">
+                <img src="./Image/Bed/GB.png" alt="" />
+              </div>
+              <div class="Bed-status">
+                <span>&#8226; &nbsp; Available Bed</span>
+              </div>
+              <div class="Bed-name">
+                <h3><span class="specalist-head-name">General</span></h3>
+                <h3><span class="specalist-more-info">Check</span></h3>
+              </div>
+            </div>
+            <button class="arrow-button">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- General OPD Hours -->
+
+    <section class="general-section">
+      <div class="general-container">
+        <h2>General OPD Hours</h2>
+
+        <div class="general-card-container">
+          <div class="general-card-section">
+            <div class="general-icon">
+              <i class="fa-regular fa-clock"></i>
+            </div>
+            <div class="general-contant">
+              <h3>Monday–Saturday</h3>
+              <h5>9 AM – 6 PM</h5>
+            </div>
+          </div>
+
+          <div class="general-card-section">
+            <div class="general-icon">
+              <i class="fa-solid fa-bed"></i>
+            </div>
+            <div class="general-contant">
+              <h3>Emergency Services</h3>
+              <h5>24/7</h5>
+            </div>
+          </div>
+
+          <div class="general-card-section">
+            <div class="general-icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="general-contant">
+              <h3>Emergency Contact</h3>
+              <h5>+91 96325 87410</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Patient Reviews -->
+    <section class="reviews-section">
+      <div class="reviews-container">
+        <h2>Patient Reviews</h2>
+
+        <div class="reviews-card-container">
+          <div class="reviews-card-section">
+            <div class="reviews-card-path">
+              <div class="reviews-profile">
+                <img src="./Image/Patient review/01.jpg" alt="" />
+              </div>
+              <div class="reviews-name">
+                <p>
+                  "Dr. Smith provided exceptional care and compassion during my
+                  treatment. Her bedside manner is outstanding, and I felt heard
+                  and understood throughout the entire process. Highly
+                  recommend!"
+                </p>
+                <h4>- Shalini</h4>
+              </div>
+            </div>
+            <button class="review-star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </button>
+          </div>
+
+          <div class="reviews-card-section">
+            <div class="reviews-card-path">
+              <div class="reviews-profile">
+                <img src="./Image/Patient review/02.jpg" alt="" />
+              </div>
+              <div class="reviews-name">
+                <p>
+                  "The staff at this clinic are knowledgeable, friendly, and
+                  efficient. Dr. Johnson took the time to explain everything
+                  clearly, and the follow-up care was excellent. I'm very
+                  satisfied with the service."
+                </p>
+                <h4>- Riyaz</h4>
+              </div>
+            </div>
+            <button class="review-star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </button>
+          </div>
+
+          <div class="reviews-card-section">
+            <div class="reviews-card-path">
+              <div class="reviews-profile">
+                <img src="./Image/Patient review/03.jpg" alt="" />
+              </div>
+              <div class="reviews-name">
+                <p>
+                  "I've been seeing Dr. Thompson for a while now, and I trust
+                  her completely. She's caring, listens attentively, and
+                  provides the best possible care. The entire team is
+                  professional and welcoming."
+                </p>
+                <h4>- Hammed</h4>
+              </div>
+            </div>
+            <button class="review-star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer  -->
+    <footer class="footer" id="footer-contact">
+      <div class="footer-container">
+        <div class="footer-col logo-col">
+          <div class="footer-logo">
+            <img src="./Image/Logo.png" alt="" />
+          </div>
+          <p>Compassionate care. Advanced technology. Trusted expertise.</p>
+        </div>
+        <div class="footer-col grow1">
+          <h3>Quick Links</h3>
+          <a href="../Home/Index.html">Home</a>
+          <a href="../Treatments & Doctors/Treatment & Doctor.html"
+            >Treatment & Doctor</a
+          >
+          <a href="../Book Appointment/Book appointment.html"> Contact</a>
+        </div>
+        <div class="footer-col grow1">
+          <h3>Contact</h3>
+          <div>
+            <span><i class="fa-solid fa-location-dot"></i></span> 32, B.B Road,
+            perambur, chennai-11
+          </div>
+          <div>
+            <span><i class="fa-solid fa-envelope"></i></span>
+            contact@sterlinghospital.com
+          </div>
+          <div>
+            <span><i class="fa-solid fa-phone"></i></span> +91-98765 43210
+          </div>
+        </div>
+        <div class="footer-col grow1 social">
+          <h3>Follow Us:</h3>
+          <div>
+            <span><i class="fa-brands fa-facebook"></i></span>@sterlingHospital
+          </div>
+          <div>
+            <span><i class="fa-brands fa-instagram"></i></span
+            >@sterling_Hospital
+          </div>
+          <div>
+            <span><i class="fa-brands fa-linkedin-in"></i></span
+            >linkedin.com/company/SterlingHospital
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2025 Sterling Multispecialty Hospital. All Rights Reserved.
+      </div>
+    </footer>
+
+    <!-- BUNDLE  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
